@@ -1,9 +1,11 @@
 FROM docker.pkg.github.com/phaynes/buster-slim-rsync/buster-slim-rsync:latest 
 
 # Add files
-ADD run.sh /run.sh
-ADD entrypoint.sh /entrypoint.sh
+ADD host-paths.txt /var/host-paths.txt
+ADD file-paths.txt /var/file-paths.txt
+ADD run.sh /etc/run.sh
+ADD entrypoint.sh /etc/entrypoint.sh
  
-RUN chmod +x /run.sh /entrypoint.sh
+RUN chmod +x /etc/run.sh /etc/entrypoint.sh
 
-ENTRYPOINT /entrypoint.sh
+ENTRYPOINT /etc/entrypoint.sh

@@ -1,3 +1,1 @@
-SOURCE_HOST=root@64.227.3.46
-SOURCE_PATH=/home/out/
-LOCAL_PATH=/home/in/
+SOURCE_HOST=root@165.227.84.216
