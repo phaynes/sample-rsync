@@ -1,2 +1,2 @@
-SOURCE_PATH=/home/out/
-LOCAL_PATH=/home/in/
+SOURCE_PATH=/root/out/
+LOCAL_PATH=/root/in/
