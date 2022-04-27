@@ -1,2 +1,2 @@
 # sample-rsync
-Shows how to build and run an rsync process as a docker.
+Shows how to build and run an rsync process within a docker container.
